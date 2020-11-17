@@ -10,4 +10,4 @@ Quelques composants à tester issus du cours de [TU Delft](https://sttp.site/).
 
 Lancer les tests avec couverture : `npm test`
 
-Lancer l'analyse par mutation : `npm mutation`
+Lancer l'analyse par mutation : `npm run mutation`
