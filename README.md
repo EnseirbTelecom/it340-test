@@ -1,6 +1,6 @@
 # it340-test
 
-Quelques composants à tester issu du cours de [TU Delft](https://sttp.site/).
+Quelques composants à tester issus du cours de [TU Delft](https://sttp.site/).
 
 ## Installation
 
