@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@stryker-mutator/core": "^4.1.2",
+    "@stryker-mutator/jest-runner": "^4.1.2",
     "jest": "^26.6.1"
   },
   "scripts": {
