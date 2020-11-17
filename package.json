@@ -7,8 +7,5 @@
   "scripts": {
     "test": "jest --coverage",
     "mutation": "stryker run"
-  },
-  "dependencies": {
-    "axios": "^0.21.0"
   }
 }
