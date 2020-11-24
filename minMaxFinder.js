@@ -1,3 +1,9 @@
+/**
+ * Requirement: Min-max
+ *
+ * Implement a program that, given a list of numbers (integers), returns the smallest and the largest numbers in this list.
+ */
+
 const LARGEST = Number.MIN_SAFE_INTEGER;
 const SMALLEST = Number.MAX_SAFE_INTEGER;
 
