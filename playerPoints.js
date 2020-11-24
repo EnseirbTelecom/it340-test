@@ -9,12 +9,11 @@
  */
 
 class PlayerPoints {
-  static totalPoints(currentPoints, remainingLives) {
-    if (currentPoints < 50)
-      return currentPoints+50;
+  static totalPoints (currentPoints, remainingLives) {
+    if (currentPoints < 50) { return currentPoints + 50 }
 
-    return remainingLives < 3 ? currentPoints+30 : currentPoints*3;
+    return remainingLives < 3 ? currentPoints + 30 : currentPoints * 3
   }
 }
 
-module.exports = PlayerPoints;
+module.exports = PlayerPoints

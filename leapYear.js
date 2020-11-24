@@ -11,14 +11,12 @@
 */
 
 class LeapYear {
-  static isLeapYear(year) {
-    if (year % 400 == 0)
-      return true;
-    if (year % 100 == 0)
-      return false;
+  static isLeapYear (year) {
+    if (year % 400 === 0) { return true }
+    if (year % 100 === 0) { return false }
 
-    return year % 4 == 0;
+    return year % 4 === 0
   }
 }
 
-module.exports = LeapYear;
+module.exports = LeapYear
