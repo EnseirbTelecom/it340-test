@@ -13,5 +13,8 @@
     "!invoiceFilter.js"
   ],
   "testRunner": "jest",
+  "jest" : {
+    "enableFindRelatedTests": false
+  },
   "coverageAnalysis": "off"
 }
