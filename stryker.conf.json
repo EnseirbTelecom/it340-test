@@ -9,7 +9,8 @@
   ],
   "mutate": [
     "*.js",
-    "!*.test.js"
+    "!*.test.js",
+    "!invoiceFilter.js"
   ],
   "testRunner": "jest",
   "coverageAnalysis": "off"
