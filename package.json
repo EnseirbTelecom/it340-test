@@ -8,5 +8,11 @@
   "scripts": {
     "test": "jest --coverage",
     "mutation": "stryker run"
+  },
+  "standard": {
+    "ignore": [
+      "/reports/**/*.js",
+      "/coverage/**/*.js"
+    ]
   }
 }
