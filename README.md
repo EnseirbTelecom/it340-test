@@ -1,23 +1,23 @@
 # it340-test
 
-Quelques composants à tester issus du cours de [TU Delft](https://sttp.site/).
+Some components dedicated to unit testing training, adapted from the [TU Delft](https://sttp.site/) course.
 
 ## Installation
 
 `npm install`
 
-## Utilisation
+## Usage
 
-Le composants à tester sont des les fichiers `*.js` et les tests correspondants sont dans les fichiers `*.test.js`. Le fichier de test initial ne contient qu'un cas de test basique. A vous de l'améliorer et de corriger de code correspondant jusqu'à ce qu'il soit correct.
+The components to test are in the `*.js` files and the corresponding tests are in the `*.test.js` files. Requirements of the components are written in as a header comment in the `*.js` files. The initial tests files only contain a very basic assertion. It's up to you to improve the tests and the corresponding components until they are correct. **Important** do not fix code without first writing a test that exhibits the problem.
 
-- Lancer les tests avec couverture : `npm test`
-- Lancer l'analyse par mutation : `npm run mutation`
+- Launch the tests (including code coverage computation)  : `npm test`
+- Launch the mutation analysis of the tests : `npm run mutation`
 
-Les bibliothèques suivantes sont utilisées pour les tests:
-- [JEST](https://jestjs.io/fr/) (framework de test)
-- [Stryker](https://stryker-mutator.io/) (analyse des tests par mutation)
+The following libraries are used for the tests:
+- [JEST](https://jestjs.io/fr/) (test framework)
+- [Stryker](https://stryker-mutator.io/) (mutation analysis framework)
 
-## Les composants
+## Components
 
 - blackJack.js
 - chocolateBars.js
