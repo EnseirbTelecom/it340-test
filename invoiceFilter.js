@@ -8,8 +8,8 @@
  */
 
 class InvoiceFilter {
-  constructor () {
-    this.invoiceIo = new InvoiceIo()
+  constructor(invoiceIo) {
+    this.invoiceIo = invoiceIo;
   }
 
   lowValueInvoices () {
@@ -18,12 +18,19 @@ class InvoiceFilter {
 }
 
 class InvoiceIo {
-  constructor () {
-    this.invoices = require('./invoices.json')
+  constructor() {
+    this.invoices = require('./invoices.json') // Missing file
   }
 
-  invoices () {
+  invoices() {
     return this.invoices
+  }
+}
+
+class Invoice {
+  constructor(description, value) {
+    this.description = description;
+    this.value = value;
   }
 }
 
