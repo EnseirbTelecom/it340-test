@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "@stryker-mutator/core": "^4.1.2",
-    "@stryker-mutator/jest-runner": "^4.1.2",
-    "jest": "^26.6.1",
-    "standard": "^16.0.3"
+    "@stryker-mutator/core": "5",
+    "@stryker-mutator/jest-runner": "5",
+    "jest": "27",
+    "standard": "16"
   },
   "scripts": {
     "test": "jest --coverage",
